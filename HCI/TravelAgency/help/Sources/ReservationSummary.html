@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>Reservation Summary - Help</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<h1>Reservation Summary panel</h1>
+
+<p>
+The Reservation Summary panel displays all the details of the booking in a clear, formatted way.
+This is the last step before confirming payment and saving the booking to a file.
+</p>
+
+<img src="img/reservationsummary_overview.png"width="600" height="400" alt="Reservation summary panel" class="help-image">
+
+<h2>Summary content</h2>
+<p>
+The summary follows a structure similar to the one described in the project statement. It normally
+includes:
+</p>
+
+<ul>
+    <li>Company name and booking header.</li>
+    <li>Booking date and theme park name.</li>
+    <li>Customer ID and customer name.</li>
+    <li><b>Tickets</b> section:
+        <ul>
+            <li>Start date</li>
+            <li>Number of days</li>
+            <li>Number of adults and children</li>
+        </ul>
+    </li>
+    <li><b>Accommodation</b> section:
+        <ul>
+            <li>Accommodation code, type, category, and name</li>
+            <li>Start date and number of nights</li>
+            <li>Number of people</li>
+        </ul>
+    </li>
+    <li><b>Booking amount</b> section:
+        <ul>
+            <li>Tickets total</li>
+            <li>Accommodation total</li>
+            <li>Offer discount (if applicable)</li>
+            <li>Final total amount</li>
+        </ul>
+    </li>
+    <li>Possible comments or observations added in the Reservation panel.</li>
+</ul>
+
+<h2>Elements on the screen</h2>
+<ul>
+    <li><b>Summary text area:</b> A scrollable area containing the formatted booking summary.</li>
+    <li><b>Confirm button:</b> Confirms the booking, creates the text file with all the summary information,
+        and moves to the Mini Game panel.</li>
+    <li><b>Cancel button:</b> Cancels the entire booking process and returns to the Main Menu,
+        leaving the application ready for the next customer.</li>
+</ul>
+
+<h2>File creation</h2>
+<p>
+When you click <b>Confirm</b>, the application saves the reservation information into a text file. The file name
+includes the customer’s ID number and the date and time of the booking. This file acts as proof of payment
+and contains all the details shown in the summary, and, if applicable, a line indicating that a 100€ voucher
+was obtained in the mini game.
+</p>
+
+<h2>How to use this panel</h2>
+<ol>
+    <li>Carefully read all the information in the summary text area.</li>
+    <li>Check:
+        <ul>
+            <li>Dates and number of days/nights.</li>
+            <li>Number of people and rooms.</li>
+            <li>Park and accommodation details.</li>
+            <li>Discount amount and final total.</li>
+        </ul>
+    </li>
+    <li>If something is wrong, you can go back to previous panels (Reservation or Customer Information) and correct it.</li>
+    <li>If everything is correct:
+        <ul>
+            <li>Click <b>Confirm</b> to save the booking and move to the Mini Game.</li>
+            <li>Or click <b>Cancel</b> to discard everything and return to the Main Menu.</li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Related topics</h2>
+<ul>
+    <li><a href="MiniGame.html">Mini game</a></li>
+    <li><a href="CustomerInfo.html">Customer information</a></li>
+    <li><a href="Reservation.html">Reservation</a></li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+*.class
+*.log
+
+bin/
+out/
+
+.classpath
+.project
+.settings/
+
+# IDEs
+.idea/
+.vscode/
+*.iml

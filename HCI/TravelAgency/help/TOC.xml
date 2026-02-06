@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+
+  <tocitem text="OpenWorld Agency Help">
+
+      <tocitem text="Introduction" target="Introduction"/>
+
+      <tocitem text="Main Menu" target="MainMenu"/>
+
+      <tocitem text="Theme Parks" target="ThemeParks"/>
+
+      <tocitem text="Accommodations" target="Accommodations"/>
+
+      <tocitem text="Reservation" target="Reservation"/>
+
+      <tocitem text="Customer Information" target="CustomerInfo"/>
+
+      <tocitem text="Reservation Summary" target="ReservationSummary"/>
+
+      <tocitem text="Mini Game" target="MiniGame"/>
+
+  </tocitem>
+
+</toc>

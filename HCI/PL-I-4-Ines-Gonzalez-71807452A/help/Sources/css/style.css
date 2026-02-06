@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #004c99;
+    margin-top: 20px;
+}
+
+.help-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0 20px 0;
+}
+
+ul, ol {
+    margin-left: 25px;
+}
